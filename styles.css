@@ -1,0 +1,116 @@
+.hd{
+	FONT-WEIGHT: BOLD; FONT-SIZE: 10pt; FONT-FAMILY: Verdana,Arial,helvetica,sans-serif;
+	BACKGROUND-COLOR: #C58361; COLOR: #000000
+}
+.bd{
+	FONT-WEIGHT: BOLD; FONT-SIZE: 10pt; FONT-FAMILY: Verdana,Arial,helvetica,sans-serif;
+	BACKGROUND-COLOR: #F5DDC4; COLOR: #000000
+}
+.login{
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	width: 320px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 200px;
+	margin-bottom: auto;
+	padding: 10px ;
+	background-color: #F7786b ;
+	color: black ;
+	border: 1px solid #F5DDC4 ;
+	text-align: center;
+	vertical-align: bottom;
+}
+.main {
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	width: 960px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 5px ;
+	background-color: #F5DDC4 ;
+	color: black ;
+	overflow: auto;
+}
+.main2{
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	width: 960px ;
+	min-height: 500px;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 5px ;
+	background-color: #F5DDC4 ;
+	color: black ;
+	overflow: auto;
+}
+.user{
+	FONT-WEIGHT: bold; BORDER:0px; FONT-SIZE: 12pt; COLOR:#AA00AA; BACKGROUND:#F5DDC4; FONT-FAMILY: Verdana,Arial,helvetica,sans-serif; 
+}
+.timer{
+	BORDER: 0px; font-family: Arial, Helvetica, sans-serif ; font-size: 1.1em ; color:#000000; BACKGROUND:#F5DDC4;
+}
+.timer a{
+	BORDER: 0px; font-family: Arial, Helvetica, sans-serif ; font-size: 1.0em ; color:#000000; BACKGROUND:#F5DDC4; text-decoration: underline;
+}
+.header{
+	FONT-WEIGHT: bold; BORDER:0px; FONT-SIZE: 12pt; COLOR:#C58361; BACKGROUND:#F5DDC4; FONT-FAMILY: Verdana,Arial,helvetica,sans-serif; HEIGHT: 30px; vertical-align: middle; padding-top: 25px; padding-bottom: 25px; 
+}
+.msg{
+	BORDER: 0px; font-family: Arial, Helvetica, sans-serif ; font-size: 1.1em ; color:#000000; BACKGROUND:#F5DDC4; width: 360px; color: #00AA00;
+}
+.error{
+	FONT: bold 1em Arial,Helvetica,sans-serif; COLOR:#FF0000
+}
+.success{
+	FONT: bold 1em Arial,Helvetica,sans-serif; COLOR:#00AA00;
+}
+.authenticate{
+	FONT: bold 1em Arial,Helvetica,sans-serif; COLOR:#AA00AA;	
+}
+.inputForm tr{
+	height: 25px;
+}
+a{
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	font-style: normal;
+	text-decoration: none;
+	color: black ;
+}
+.td_opBill_dis{
+	font-size: 12px;
+	font-weight: bold;
+}
+.td_opBill_data{
+	font-size: 10px;
+	font-weight: normal;
+}
+.tr_opBill_extra{
+	font-size: 9px;
+	font-weight: normal;
+}
+.tr_opBill_dis{
+	font-size: 12px;
+	font-weight: bold;
+}
+.tr_opBill_data{
+	font-size: 10px;
+	font-weight: normal;
+}
+.tr_header{
+	background-color: #AA7D53;
+	color: #FFF8FB;
+	font-weight: bold;
+	text-align: center;
+}
+.tr_even{
+	background-color: #FFEAF6;
+	font-weight: normal;
+	text-align: left;
+}
+.tr_odd{
+	background-color: #CFD9E2;
+	font-weight: normal;
+	text-align: left;
+}

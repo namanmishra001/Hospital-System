@@ -1,0 +1,59 @@
+/*** MENU ***/
+.menu, .menu * {
+	list-style:none;
+	padding: 0px;
+	font-size: 1.1em ;	
+}
+.menu {
+	width:970px;
+	margin:auto;
+	background: #F5DDC4;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	height: 25px;
+}
+
+.menu > li {
+	float:left;
+	position:relative;
+	width:155px;
+	background:#C58361;
+	margin-left: 5px;
+	border-radius:10px 10px 0px 0px;
+    -moz-border-radius:10px 10px 0px 0px;
+    -webkit-border-radius:10px 10px 0px 0px;
+	-khtml-border-radius:10px 10px 0px 0px;
+}
+.menu a {
+	display:block;
+	position:relative;
+	color:#F5DDC4;
+	padding: 5px;
+	text-shadow:0 1px 0 #2360b3;
+	text-align:center;
+	margin: 2px;
+}
+.menu > li a:hover,
+.menu > li.sfHover > a {
+	background:#F5DDC4;
+	color:#C58361;
+	border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+}
+.menu > li > ul {
+    display:none;
+}
+.menu > li:hover > ul{
+    display:block;
+	padding: 0px;
+	position:absolute !important;
+	width:155px;
+	background:#C58361;
+}
+.menu > li:hover > ul a{
+    font-size: 1.0em;
+}
+.menu li:hover {
+	visibility:inherit; /* fixes IE7 'sticky bug' */
+}

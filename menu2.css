@@ -1,0 +1,27 @@
+.menu{
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 1.1em ;
+	width: 960px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	color: black ;
+	padding: 0px ;
+}
+.menu li{
+	display: inline;
+}
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+	background-color: #F5DDC4;
+	padding: 5px;
+}
+.menu li a:HOVER {
+	text-decoration: none;
+	color: #0000FF;
+	background-color: #F5DDC4;
+	padding: 5px;
+}
+
+

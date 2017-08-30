@@ -1,0 +1,31 @@
+span.link {
+	position: inherit;
+}
+
+span.link a {
+   	position: inherit;
+}
+
+span.link a:hover {
+   	font-color: #000000;
+}
+
+span.link a span {
+   	display: none;
+   	position: inherit;
+}
+
+span.link a:hover span { 
+   	display: block;
+   	position: absolute;
+    width: 300px;
+    height: 200px; 
+    padding: 5px; 
+   	z-index: 100; 
+   	color: #000000; 
+   	background: #FFFFAA; 
+   	font: 12px "Arial", sans-serif;
+   	text-align: left; 
+   	text-decoration: none;
+   	overflow: scroll;
+}

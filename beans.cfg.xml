@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <mapping resource="info/inetsolv/bean/User.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/UserRole.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/DoctorPreferences.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/RoomCategory.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/RoomDetails.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/RoomOccupancy.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/City.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/PatientInfo.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/OpBill.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/OpVisit.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/IpBill.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabTestDepartment.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabTest.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabTestProfile.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabTestReport.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabTestReportDetail.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/LabBill.hbm.xml" />
+    <mapping resource="info/inetsolv/bean/Keys.hbm.xml" />
+  </session-factory>
+</hibernate-configuration>
